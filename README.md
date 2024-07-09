@@ -17,25 +17,33 @@ This plugin allows custom placeholder text and colour options for The Events Cal
 
 1. Go to `Events Placeholder Settings` in your WordPress admin dashboard.
 2. Configure the placeholder field options and style as desired.
-4. Save changes and verify the new fields in the attendee registration form.
+3. Save changes and verify the new fields in the attendee registration form.
+
+![Event Placeholder Settings](screenshots/Event%20Placeholder%20Settings.png)
+*Screenshot of the event placeholder settings page.*
+
+![Front End Form Example](screenshots/Front%20End%20Form%20Example.png)
+*Screenshot of the front end form example.*
+
+![Installed Plugin](screenshots/Installed%20Plugin.png)
+*Screenshot of the installed plugin.*
 
 ## Changelog:
 
-## Version 1.3:
+### Version 1.3:
 - Fixed issue with name placeholder not changing.
 - Added admin menu icon.
 
-## Version 1.2:
+### Version 1.2:
 - Added option to set the non-focus border size in pixels.
 - Added option to set the focus border size in pixels.
 
-## Version 1.1:
+### Version 1.1:
 - Added option to set placeholder text colour.
 - Added option to set focus border colour.
 
-##  Version 1.0:
+### Version 1.0:
 - Initial release with placeholder text customization options.
-*/
 
 ## Contributing
 
@@ -49,4 +57,3 @@ This plugin is licensed under the GPL-3.0 License. See the [LICENSE](./LICENSE) 
 
 - Developed by [Techy_Tackler - SB](https://westart.agency).
 - Thanks to the contributors of The Events Calendar plugin.
-
