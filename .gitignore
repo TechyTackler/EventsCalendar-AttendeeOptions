@@ -1,4 +1,4 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
+# Wordpress - ignore core, configuration, examples, uploads, and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
 # Core
@@ -35,6 +35,35 @@ wp-config.php
 # htaccess
 /.htaccess
 
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules directory
+node_modules/
+
+# Composer directories and files
+vendor/
+composer.lock
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build artifacts
+dist/
+build/
+
+# Backup files
+*.bak
+*.orig
+
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
@@ -46,3 +75,12 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Plugin specific ignores
+/path/to/plugin/.env
+/path/to/plugin/cache/
+path/to/plugin/vendor/
+path/to/plugin/node_modules/
+path/to/plugin/.vscode/
+path/to/plugin/.DS_Store
+path/to/plugin/Thumbs.db
