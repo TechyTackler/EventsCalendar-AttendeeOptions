@@ -19,14 +19,9 @@ This plugin allows custom placeholder text and colour options for The Events Cal
 2. Configure the placeholder field options and style as desired.
 3. Save changes and verify the new fields in the attendee registration form.
 
-![Event Placeholder Settings](screenshots/Event%20Placeholder%20Settings.png)
-*Screenshot of the event placeholder settings page.*
+## Screenshots
 
-![Front End Form Example](screenshots/Front%20End%20Form%20Example.png)
-*Screenshot of the front end form example.*
-
-![Installed Plugin](screenshots/Installed%20Plugin.png)
-*Screenshot of the installed plugin.*
+You can find screenshots of the plugin in the [screenshots](screenshots/) folder.
 
 ## Changelog:
 
